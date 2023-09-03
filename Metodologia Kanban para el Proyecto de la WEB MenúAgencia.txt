@@ -1,0 +1,25 @@
+Metodología Kanban para el Proyecto de la WEB/ MenúAgencia:
+Tablero Kanban:
+Creación columnas como "Por hacer", "En progreso", "Revisión" y "Hecho" con Excel.
+
+Listado de Tareas:
+Creación de Menu principal
+Creación de Promos Vigentes,
+Creación de Destinos Nacionales e Internacionales,
+Creación de Contactenos,
+Creación de Reservas
+Creación de promos vigentes y Promo Nacional
+Investigar y diseñar la interfaz del sistema.
+Generar un pseudocódigo funcional.
+Crear la estructura de la base para la promo nacional.
+Implementar la funcionalidad de contactos.
+Diseñar la lista de destinos nacionales e internacionales
+Flujo de Trabajo:
+
+Colocamos las tareas en la columna "Por hacer" del tablero Kanban.
+A medida que comence a trabajar en una tarea, la fui moviendo a la columna "En progreso".
+Cuando complete una tarea, la moví a la columna "Revisión" para verificarla y resolver cualquier problema.
+Una vez que una tarea haya sido revisada y aprobada, la moví a la columna "Hecho".
+
+Seguimiento:
+Actualzaré el tablero Kanban semanalmente, asegurándome de que refleje el progreso. 
