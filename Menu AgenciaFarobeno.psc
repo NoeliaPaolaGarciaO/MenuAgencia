@@ -25,7 +25,7 @@ Algoritmo AgenciaDeViajesMenu
                     Escribir "3. Promo Nacional"
                     Escribir "4. Volver al menú principal"
                     Escribir "Seleccione una opción: "
-                    Leer opcion
+                    Leer opcionDestinosNacionales
 					
 					Segun opcionDestinosNacionales Hacer
 						1:
@@ -53,11 +53,11 @@ Algoritmo AgenciaDeViajesMenu
 								Escribir "###########################################################################";
 							3:
 								Escribir "Promo Nacional"
-								Escribir " Si Ud se encuentra en Argentina, aqui podra ser parte de Promo Nacional
+								Escribir " Si Ud se encuentra en Argentina, aqui podra ser parte de Promo Nacional"
 								Escribir "Digite el numero de dias de su estadia";
-								Leer d;
+								Leer dias;
 								Escribir "digite la distancia de su destino";
-								Leer k;
+								Leer distacia;
 							4:
 								Escribir "Volver al menú principal"
 							Hasta Que opcionDestinosNacionales = 4
