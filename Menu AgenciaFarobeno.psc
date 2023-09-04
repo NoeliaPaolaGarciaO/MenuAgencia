@@ -7,14 +7,14 @@ Algoritmo AgenciaDeViajesMenu
 		Escribir "----------------- FAROBENO VIAJES -------------------"
 		Escribir "##########################################"
 		Escribir " ";
-		Escribir "------------------------------ Menú Principal -----------------------"
+		Escribir "------------------------------ MenÃº Principal -----------------------"
         Escribir "1. Destinos Nacionales"
         Escribir "2. Destinos Internacionales"
         Escribir "3. Promociones Vigentes"
 		Escribir "4. Contactenos"
         Escribir "0. Salir"
-        Escribir "Seleccione una opción: "
-        Leer opcion
+        Escribir "Seleccione una opciÃ³n: "
+        Leer opcionDestinosNacionales
 		
         Segun opcion Hacer
             1:
@@ -23,21 +23,21 @@ Algoritmo AgenciaDeViajesMenu
                     Escribir "1. Mendoza"
                     Escribir "2. Buenos Aires"
                     Escribir "3. Promo Nacional"
-                    Escribir "4. Volver al menú principal"
-                    Escribir "Seleccione una opción: "
+                    Escribir "4. Volver al menÃº principal"
+                    Escribir "Seleccione una opciÃ³n: "
                     Leer opcion
 					
-					Segun opcion Hacer
+					Segun opcionDestinosNacionales Hacer
 						1:
 							Repetir
 								Escribir "Ha seleccionado Mendoza"
 								Escribir "############################################################################";
 								// ---------------Mendoza---------------"							
 								Escribir " ";
-								Escribir "-A lo largo de la Cordillera de los Andes, la adrenalina se vive durante todo el año. -";
-								Escribir " -En el cauce de sus ríos y embalses, en sus valles y en la misma montaña, brinda sus irresistibles escenarios naturales para la aventura del rafting, canopy, kayak, buceo, escalada, rappel, mountain bike, cabalgatas y paracaidismo. -";
-								Escribir " -te ofrece su formidable escenario productivo, con el encanto de sus fincas, viñedos y bodegas.  Es asomarse a la cuna del Malbec, sus tradiciones y pasión por el cultivo de vides, y a la elaboración de los vinos más premiados de Argentina.-";
-								Escribir " -Mirá todo lo que podés hacer y disfrutar en esta provincia de la región cuyana. ¡Viví Mendoza!-";
+								Escribir "-A lo largo de la Cordillera de los Andes, la adrenalina se vive durante todo el aÃ±o. -";
+								Escribir " -En el cauce de sus rÃ­os y embalses, en sus valles y en la misma montaÃ±a, brinda sus irresistibles escenarios naturales para la aventura del rafting, canopy, kayak, buceo, escalada, rappel, mountain bike, cabalgatas y paracaidismo. -";
+								Escribir " -te ofrece su formidable escenario productivo, con el encanto de sus fincas, viÃ±edos y bodegas.  Es asomarse a la cuna del Malbec, sus tradiciones y pasiÃ³n por el cultivo de vides, y a la elaboraciÃ³n de los vinos mÃ¡s premiados de Argentina.-";
+								Escribir " -MirÃ¡ todo lo que podÃ©s hacer y disfrutar en esta provincia de la regiÃ³n cuyana. Â¡VivÃ­ Mendoza!-";
 								Escribir " ";
 								Escribir "###########################################################################";
 					2:
@@ -45,10 +45,10 @@ Algoritmo AgenciaDeViajesMenu
 								Escribir "############################################################################";
 								// ---------------Buenos Aires---------------"							
 								Escribir " ";
-								Escribir "-Una de las capitales más grandes y cosmopolitas de Sudamérica -";
-								Escribir " -Con el Obelisco como uno de sus principales íconos, la ciudad tiene múltiples opciones y espacios para recorrer -";
-								Escribir " -Pero bien vale la pena adentrarse en el corazón porteño para sentir su más pasional tradición: el tango. San Telmo, La Boca y Caminito, son unos de esos sitios imperdibles.-";
-								Escribir " -Concentra todo tipo de actividades (negocios, reuniones, convenciones) y congrega a multitudes como sede de grandes eventos culturales y deportivos.  . ¡Viví Buenos Aires!-";
+								Escribir "-Una de las capitales mÃ¡s grandes y cosmopolitas de SudamÃ©rica -";
+								Escribir " -Con el Obelisco como uno de sus principales Ã­conos, la ciudad tiene mÃºltiples opciones y espacios para recorrer -";
+								Escribir " -Pero bien vale la pena adentrarse en el corazÃ³n porteÃ±o para sentir su mÃ¡s pasional tradiciÃ³n: el tango. San Telmo, La Boca y Caminito, son unos de esos sitios imperdibles.-";
+								Escribir " -Concentra todo tipo de actividades (negocios, reuniones, convenciones) y congrega a multitudes como sede de grandes eventos culturales y deportivos.  . Â¡VivÃ­ Buenos Aires!-";
 								Escribir " ";
 								Escribir "###########################################################################";
 							3:
@@ -59,8 +59,8 @@ Algoritmo AgenciaDeViajesMenu
 								Escribir "digite la distancia de su destino";
 								Leer k;
 							4:
-								Escribir "Volver al menú principal"
-							Hasta Que opcion = 4
+								Escribir "Volver al menÃº principal"
+							Hasta Que opcionDestinosNacionales = 4
 				FinSegun
             2:
                 Repetir
@@ -68,20 +68,20 @@ Algoritmo AgenciaDeViajesMenu
                     Escribir "1. Miami"
                     Escribir "2. Barcelona"
                     Escribir "3. Brasil"
-                    Escribir "4. Volver al menú principal"
-                    Escribir "Seleccione una opción: "
-                    Leer opcion
+                    Escribir "4. Volver al menÃº principal"
+                    Escribir "Seleccione una opciÃ³n: "
+                    Leer opcionDestinosInternacionales
 					
-                    Segun opcion Hacer
+                    Segun opcionDestinosInternacionales Hacer
                         1:
                             Escribir "Ha seleccionado Miami"
-                            // Aquí puedes agregar el código específico para Miami
+                            // AquÃ­ puedes agregar el cÃ³digo especÃ­fico para Miami
 							Escribir "Ha seleccionado Miami"
 							Escribir "############################################################################";
 							// ---------------Miami---------------"	
 							Escribir " ";
-							Escribir "-Algunas de las playas más lindas del mundo-";
-							Escribir " -Vida Nocturna, buceo, surf, centros de compras y mucho más-";
+							Escribir "-Algunas de las playas mÃ¡s lindas del mundo-";
+							Escribir " -Vida Nocturna, buceo, surf, centros de compras y mucho mÃ¡s-";
 							Escribir " -A tres horas y media de los parques de Walt Disney World, Universal-";
 							Escribir " -Servicios hoteleros de primera, negocios, placer, familia-";
 							Escribir " ";
@@ -89,27 +89,27 @@ Algoritmo AgenciaDeViajesMenu
 
                         2:
                             Escribir "Ha seleccionado Barcelona"
-                            // Aquí puedes agregar el código específico para Barcelona
+                            // AquÃ­ puedes agregar el cÃ³digo especÃ­fico para Barcelona
 							Escribir " ";
-							Escribir "-De Norte a Sur, hay lugares increíbles en Brasil para conocer. ¡Los destinos son fantásticos y están listos para recibirte!-";
-							Escribir " -Barcelona es la mezcla perfecta entre diversión,relax y cultura.Con una serie de monumentos históricos,obras de arte,espectaculares paisajes y actividades,-";
-							Escribir " -una ciudad romántica, entretenida,placentera que entrega satisfacción garantizada incluso para los turistas más exigentes.-";
+							Escribir "-De Norte a Sur, hay lugares increÃ­bles en Brasil para conocer. Â¡Los destinos son fantÃ¡sticos y estÃ¡n listos para recibirte!-";
+							Escribir " -Barcelona es la mezcla perfecta entre diversiÃ³n,relax y cultura.Con una serie de monumentos histÃ³ricos,obras de arte,espectaculares paisajes y actividades,-";
+							Escribir " -una ciudad romÃ¡ntica, entretenida,placentera que entrega satisfacciÃ³n garantizada incluso para los turistas mÃ¡s exigentes.-";
 							Escribir " ";
 							Escribir "###########################################################################";
                         3:
                             Escribir "Ha seleccionado Brasil"
-                            // Aquí puedes agregar el código específico para Brasil
+                            // AquÃ­ puedes agregar el cÃ³digo especÃ­fico para Brasil
 							Escribir " ";
-							Escribir "-Una de las ciudades europeas más visitadas,tanto por turistas deseosos, como por los asistentes a los congresos,reuniones y todo tipo de exposiciones que se celebran en la ciudad.-";
-							Escribir " -Con una gastronomía exquisita, cultura riquísima, algunas de las playas más lindas del mundo, cascadas deslumbrantes y aventuras para todos los gustos.-";
+							Escribir "-Una de las ciudades europeas mÃ¡s visitadas,tanto por turistas deseosos, como por los asistentes a los congresos,reuniones y todo tipo de exposiciones que se celebran en la ciudad.-";
+							Escribir " -Con una gastronomÃ­a exquisita, cultura riquÃ­sima, algunas de las playas mÃ¡s lindas del mundo, cascadas deslumbrantes y aventuras para todos los gustos.-";
 							Escribir " -Uno puede elegir el tipo de turismo que le encanta y sorprenderse con las maravillas de Brasil.-";
-							Escribir " -¡Vive experiencias inolvidables!.-";
+							Escribir " -Â¡Vive experiencias inolvidables!.-";
 							Escribir " ";
 							Escribir "###########################################################################";
                         4:
-                            Escribir "Volver al menú principal"
+                            Escribir "Volver al menÃº principal"
                     FinSegun
-                Hasta Que opcion = 4
+                Hasta Que opcionDestinosInternacionales = 4
 				
             3:
                 Repetir
@@ -117,38 +117,40 @@ Algoritmo AgenciaDeViajesMenu
                     Escribir "1. Exclusivos Farobeno"
                     Escribir "2. Finde largo"
                     Escribir "3. Aereos"
-                    Escribir "4. Volver al menú principal"
-                    Escribir "Seleccione una opción: "
-                    Leer opcion
+                    Escribir "4. Volver al menÃº principal"
+                    Escribir "Seleccione una opciÃ³n: "
+                    Leer opcionPromocionesVigentes
 					
-                    Segun opcion Hacer
+                    Segun opcionPromocionesVigentes Hacer
                         1:
                             Escribir "Ha seleccionado Exclusivos Farobeno"
                             // https://www.farobenoviajes.tur.ar/espanol/tematica/10/Exclusivos-Farobeno/A
                         2:
                             Escribir "Ha seleccionado Finde largo"
-                            // Aquí puedes agregar el código específico para Finde largo
+                            // AquÃ­ puedes agregar el cÃ³digo especÃ­fico para Finde largo
                         3:
                             Escribir "Ha seleccionado Aereos"
-                            // Aquí puedes agregar el código específico para Aereos
+                            // AquÃ­ puedes agregar el cÃ³digo especÃ­fico para Aereos
                         4:
-                            Escribir "Volver al menú principal"
+                            Escribir "Volver al menÃº principal"
                     FinSegun
-                Hasta Que opcion = 4
+                Hasta Que opcionPromociones = 4
 				
             4:
 				Repetir
 					Escribir "Contactenos"
-					Escribir " Toda la información sobre destinos y nuestros productos la encontras aqui."
-					Escribir "Dirección: Alsina 19, piso 14, oficina 8"
+					Escribir " Toda la informaciÃ³n sobre destinos y nuestros productos la encontras aqui."
+					Escribir "DirecciÃ³n: Alsina 19, piso 14, oficina 8"
 					Escribir 
 					//https://wa.me/542915034582
 					Escribir "Email: info@farobenoviajes.com"
 					Escribir 
 					//https://www.instagram.com/farobenoviajes
-					Escribir "Volver al menú principal"
+					Escribir "0 = Volver al menÃº principal"
+                                        Leer opcioncontacto
+                                Hasta Que opcioncontacto = 0
 				Otro:
 					Escribir "Gracias por su visita "
 			FinSegun
-		Hasta Que opcion = 0
+    Hasta Que opcion = 0
 FinAlgoritmo
